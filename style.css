@@ -60,6 +60,7 @@ ul{
     color: white;
     padding: 10px 20px;
     border-radius: 100px;
+<<<<<<< HEAD
 }
 
 .menu-hamburguesa{
@@ -70,6 +71,18 @@ ul{
     margin-right: 40px;
 }
 
+=======
+}
+
+.menu-hamburguesa{
+    display: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+>>>>>>> 8e00b538ddd008609f9de993a9639c31d2a0383b
 
 /* SECCION PRESENTACION */
 
@@ -112,6 +125,7 @@ ul{
     margin-top: 20px;
     color: #5f524d;
     margin: 10px 0;
+<<<<<<< HEAD
 }
 
 .boton-presentacion{
@@ -135,7 +149,23 @@ ul{
     display: flex;
     justify-content: center;
     padding: 90px 40px;
+=======
 }
+
+.boton-presentacion{
+    color: #ffffff;
+    background-color: #ffb000;
+    padding: 15px 40px;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+.presentacion-img {
+    margin: 20px;
+    width: 100%;
+>>>>>>> 8e00b538ddd008609f9de993a9639c31d2a0383b
+}
+
 
 .conocimientos{
     display:flex;
