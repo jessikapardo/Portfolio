@@ -6,31 +6,47 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <title>Jessika Pardo</title>
 </head>
+
 <body>
-    <!-- Encabezado / Barra navegación -->
-    <header class="secciones" >
-        <nav>
-            <ul class="nav-header">
-                <li>Hola</li>
-                <li>Conocimientos</li>
-                <li>Proyectos</li>
-                <li>Contacto</li>
+    <!-- BARRA NAVEGACION -->
+    <header class=barra-navegacion>
+        <nav class="contenedor-menu">
+            <ul class="menu">
+                <div class="menu-hamburguesa">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <li>
+                    <a class="link-navegacion" href="#primera-seccion">HOLA</a>
+                </li>
+                <li>
+                    <a class="link-navegacion" href="#segunda-seccion">CONOCIMIENTOS</a>
+                </li>
+                <li>
+                    <a class="link-navegacion" href="#tercera-seccion">PROYECTOS</a>
+                </li>
+                <li>
+                    <a class="boton" href="#cuarta-seccion">CONTACTO</a>
+                </li>
             </ul>
         </nav>
+
     </header>
 
-    <!-- Primera sección -->
-    <section class="secciones" id="primera-seccion">
-        <div class="presentacion">
+    <!-- SECCION PRESENTACION -->
+    <section class="seccion-presentacion" id="primera-seccion">
+        <div class="contenedor-presentacion">
             <div class="presentacion-txt">
                 <h3>¡Hola! Soy</h3>
                 <h1>Jessika Pardo</h1>
-                <p>Estudiante de FrontEnd, Diseñadora Audiovisual y Cocinera</p>
-                <a href="#proyectos" class="boton">LO QUE HAGO</a>
+                <p>Diseñadora Audiovisual, Cocinera, casi Sommelier y futura Desarrolladora FrontEnd</p>
+                <a href="#tercera-seccion" class="boton-presentacion">LO QUE HAGO</a>
             </div>
-            <img src="img/woman-computer.png" class="presentacion-img"> 
+            <div class="presentacion-txt">
+                <img class="presentacion-img" src="img/jess.png">
+            </div>
         </div>
     </section>
 
