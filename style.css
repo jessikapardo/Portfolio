@@ -137,6 +137,11 @@ ul{
     margin: 10px 0;
 }
 
+.boton-presentacion:hover{
+    color: #187e5f;
+    font-weight: 500;
+}
+
 .presentacion-img {
     margin: 20px;
     width: 100%;
@@ -221,7 +226,7 @@ ul{
 }
 
 .fa-quote-right{
-    color: #ffb000;;
+    color: #ffba9f;
     font-size: 70px;
     margin-bottom: 40px;
 }
@@ -233,7 +238,7 @@ ul{
 }
 
 .quote h2{
-    color: #ffb000;
+    color: #ffba9f;
     font-family: 'Handlee', cursive;
     font-size: 45px;
     font-weight: bold;
@@ -319,4 +324,61 @@ a:hover .imagen-proyecto{
 
 a:hover .imagen-proyecto-hover{
     display: block;
+}
+
+
+  /* SECCION FOOTER*/
+
+  .seccion-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 60px;
+    background-color:#6f75e0;
+    color: white;
+}
+
+.contenedor-contacto{
+    width: 1000px;
+}
+
+.menu-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.link-footer{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 10px;
+}
+
+.link-footer:hover{
+    color:#321e7c;
+    font-weight: 500;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.redes i{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #ff8ebb;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.autoria{
+    text-align: center;
 }
