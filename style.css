@@ -56,14 +56,25 @@ ul{
     font-weight: 300;
 }
 
+
+.link-navegacion:hover{
+    color:#321e7c;
+    font-weight: 500;
+}
+
 .boton{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #85d8f6;
-    color: white;
+    color: #6f75e0;
     padding: 10px 20px;
     border-radius: 100px;
+}
+
+.boton:hover{
+    color: #ffffff;
+    font-weight: 500;
 }
 
 .menu-hamburguesa{
@@ -120,7 +131,7 @@ ul{
 
 .boton-presentacion{
     color: #ffffff;
-    background-color: #ffb000;
+    background-color: #37e4b0;
     padding: 15px 40px;
     border-radius: 100px;
     margin: 10px 0;
@@ -227,4 +238,85 @@ ul{
     font-size: 45px;
     font-weight: bold;
     margin-top: 40px;
+}
+
+/* SECCION MIS PROYECTOS */
+
+.seccion-proyectos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 40px;
+ }
+
+ .contenedor-proyectos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;    
+}
+
+.contenedor-proyectos h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.nav-proyectos{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.menu-proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    color: #8a8a8a;
+    font-size: 20px;
+}
+
+.menu-proyectos li{
+    margin-right: 25px;
+}
+
+.proyectos{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-proyectos{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+ 
+.tarjeta-proyectos{
+    color: #2e2e31;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.imagen-proyecto{
+    width: 200px;
+}
+.imagen-proyecto-hover{
+    display: none;
+    width: 200px;
+}
+
+a:hover .imagen-proyecto{
+    display: none;
+}
+
+a:hover .imagen-proyecto-hover{
+    display: block;
 }
