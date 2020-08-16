@@ -12,13 +12,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*
-font-family: 'Gochi Hand', cursive;
-font-family: 'Handlee', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Titan One', cursive;
-*/
-
 a{
     text-decoration: none;
 }
@@ -327,7 +320,6 @@ ul{
 
 .imagen-proyecto{
     display: flex;
-    
     justify-content: space-between;
     width: 100%;
 }
@@ -427,7 +419,6 @@ a:hover .imagen-proyecto-hover{
     .presentacion-txt h1{
         font-size:70px;
     }
-
     .presentacion-txt img{
         max-width: 500px;
         margin: 20px 0;
@@ -504,7 +495,6 @@ a:hover .imagen-proyecto-hover{
         height: 200px;
     }
     
-
     /* SECCION QUOTE */
     .seccion-quote{
         padding: 80px 10px;
@@ -522,6 +512,7 @@ a:hover .imagen-proyecto-hover{
     .quote h2{
         font-size: 35px;
     }
+
     /* SECCION PROYECTOS */
     .seccion-proyectos{
         padding: 80px 10px;
@@ -532,10 +523,6 @@ a:hover .imagen-proyecto-hover{
     .menu-proyectos {
         font-size: 15px;   
     }
-    /*
-    .contenido-proyectos{
-        max-width: 280px;
-    }*/
     .tarjeta-proyectos{
         width: 100%;
     }
