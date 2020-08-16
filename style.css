@@ -34,7 +34,6 @@ ul{
     display: flex;
     justify-content: center;
     background-color:#6f75e0;
-    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     padding: 20px;
 }
 
@@ -221,6 +220,7 @@ ul{
     display:flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     color: #ffffff;
     width: 1000px;
 }
@@ -291,6 +291,8 @@ ul{
 .proyectos{
     display: flex;
     justify-content: center;
+    max-width: 840px;
+    width: 100%;
 }
 
 .contenido-proyectos{
@@ -346,6 +348,7 @@ a:hover .imagen-proyecto-hover{
 .menu-contacto{
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .link-footer{
@@ -387,15 +390,34 @@ a:hover .imagen-proyecto-hover{
 /* RESPONSIVE */
 
 @media (max-width: 900px){
+   
+    /* SECCION PRESENTACION */
     .contenedor-presentacion {
-    flex-direction: column;
+        flex-direction: column;
+    }
+    .presentacion-txt{
+        align-items: center;
+        text-align: center;
+    }
+    .presentacion-txt h1{
+        font-size: 60px;
     }
 
-    .presentacion-txt{
-    align-items: center;
-    text-align: center;
+    /* SECCION PROYECTOS */
+
+}
+
+@media (max-width: 750px){
+    
+    /* SECCION PRESENTACION */
+    .presentacion-txt h3{
+        font-size: 30px;
+    }
+    .presentacion-txt h1{
+        font-size: 45px;
     }
 }
+
 
 @media  (max-width:600px){
  
@@ -407,12 +429,45 @@ a:hover .imagen-proyecto-hover{
         display: block;
     }
 
+     /* SECCION PRESENTACION */
+    .seccion-presentacion .seccion-conocimientos .seccion-quote .seccion-proyectos{
+        padding: 80px 20px;
+    }
+    .contenedor-presentacion{
+        max-width: 600px;
+    }     
+    .presentacion-txt h3{
+        font-size: 20px;
+    }
+    .presentacion-txt h1{
+        font-size: 30px;
+    }
+    .presentacion-txt p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .boton-presentacion {
+        padding: 10px 20px;
+        margin: 5px 0;
+        font-size: 12px;
+    }    
+    
     /* SECCION CONOCIMIENTOS - TARJETAS */
+    .conocimientos h2{
+        font-size: 30px;
+    }
+    .conocimientos p{
+        font-size: 15px;
+    }
     .contenedor{
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
+    .tarjeta{
+        width: 150px;
+    }
+    .
 
     /* SECCION FOOTER */
     .nav-footer {
