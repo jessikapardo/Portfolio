@@ -304,10 +304,10 @@ ul{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    width: 100%;
 }
  
 .tarjeta-proyectos{
-    color: #2e2e31;
     padding: 40px 20px;
     background-color: #fff;
     border: 1px solid #dddfe5;
@@ -318,8 +318,12 @@ ul{
 }
 
 .imagen-proyecto{
-    width: 200px;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 100%;
 }
+
 .imagen-proyecto-hover{
     display: none;
     width: 200px;
@@ -331,6 +335,12 @@ a:hover .imagen-proyecto{
 
 a:hover .imagen-proyecto-hover{
     display: block;
+}
+
+.tarjeta-proyectos p{
+    color: #2e2e31;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
   /* SECCION FOOTER*/
