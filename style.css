@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Handlee&family=Roboto:wght@100;300;400;500;700;900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Handlee&family=Roboto:wght@100;300;400;500;700;900&family=Titan+One&family=Black+Han+Sans&display=swap');
 *{
     margin:0px;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ ul{
     color: white;
     font-size: 25px;
     font-weight: bold;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 
@@ -111,16 +111,16 @@ ul{
 }
 
 .presentacion-txt h3{
-    color: black;
+    color: #363636;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .presentacion-txt h1{
-    font-family: 'Handlee', cursive;
-    font-size: 70px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 55px;
     color: #f93c64;
-    font-weight: 900;  
+    font-weight: 500;
 }
 
 .presentacion-txt p{
@@ -133,14 +133,14 @@ ul{
 
 .boton-presentacion{
     color: #ffffff;
-    background-color: #37e4b0;
+    background-color: #6f75e0;;
     padding: 15px 40px;
     border-radius: 100px;
     margin: 10px 0;
 }
 
 .boton-presentacion:hover{
-    color: #187e5f;
+    color: #321e7c;
     font-weight: 500;
 }
 
@@ -390,6 +390,7 @@ a:hover .imagen-proyecto-hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: wrap;
     margin: 30px 0;
 }
 
@@ -424,7 +425,7 @@ a:hover .imagen-proyecto-hover{
         width: auto;
     }
     .presentacion-txt h1{
-        font-size: 90px;
+        font-size:70px;
     }
 
     .presentacion-txt img{
@@ -450,7 +451,7 @@ a:hover .imagen-proyecto-hover{
         font-size: 40px;
     }
     .presentacion-txt h1{
-        font-size: 80px;
+        font-size: 60px;
     }
     .presentacion-txt p{
         font-size: 18px;
@@ -477,11 +478,11 @@ a:hover .imagen-proyecto-hover{
         font-size: 30px;
     }
     .presentacion-txt h1{
-        font-size: 70px;
+        font-size: 40px;
     }
     .presentacion-txt p{
-        font-size: 20px;
-    margin: 20px 20px;
+        font-size: 15px;
+        margin: 10px 20px;
     }
    
     /* SECCION CONOCIMIENTOS - TARJETAS */
@@ -513,7 +514,7 @@ a:hover .imagen-proyecto-hover{
         margin-bottom: 30px;
     }
     .quote p {
-        font-size: 20px;
+        font-size: 15px;
         line-height: 25px;
         max-width: 400px;
         width: 100%;
@@ -525,6 +526,9 @@ a:hover .imagen-proyecto-hover{
     .seccion-proyectos{
         padding: 80px 10px;
     }  
+    .contenedor-proyectos h2{
+        font-size: 30px;
+    }
     .menu-proyectos {
         font-size: 15px;   
     }
@@ -544,16 +548,17 @@ a:hover .imagen-proyecto-hover{
         display: none;
     }
     .redes i{
-        width: 40px;
-        height: 40px;
-         font-size: 20px;
+        max-width: 40px;
+        max-height: 40px;
+        font-size: 20px;
         margin: 10px;
         padding: 10px;
+        width: 100%;
     }
 
     @media (max-width:410px){
         .presentacion-txt h1{
-            font-size: 50px;
+            font-size: 40px;
         }
     }
 }
