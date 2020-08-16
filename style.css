@@ -411,6 +411,7 @@ a:hover .imagen-proyecto-hover{
 
     .presentacion-txt img{
         max-width: 500px;
+        margin: 20px 0;
     }
 
     /* SECCION CONOCIMIENTOS */
@@ -447,26 +448,29 @@ a:hover .imagen-proyecto-hover{
     }
 
      /* SECCION PRESENTACION */
-    .seccion-presentacion .seccion-conocimientos .seccion-quote .seccion-proyectos{
+    .seccion-presentacion{
         padding: 80px 10px;
     }    
-    .presentacion-txt h3{
-        font-size: 20px;
+    .presentacion-txt h3 {
+        font-size: 30px;
     }
     .presentacion-txt h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .presentacion-txt p{
         font-size: 12px;
-        margin-top: 10px;
+        margin: 20px 0;
     }
-    .boton-presentacion {
+    /*.boton-presentacion {
         padding: 10px 20px;
         margin: 5px 0;
         font-size: 12px;
-    }    
+    }    */
     
     /* SECCION CONOCIMIENTOS - TARJETAS */
+    .seccion-conocimientos{
+        padding: 80px 10px;
+    }   
     .conocimientos h2{
         font-size: 30px;
     }
@@ -474,21 +478,51 @@ a:hover .imagen-proyecto-hover{
         font-size: 15px;
     }
     .contenedor{
-        flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .tarjeta{
         width: 150px;
     }
     
+
+    /* SECCION QUOTE */
+    .seccion-quote{
+        padding: 80px 10px;
+    }  
+        .fa-quote-right{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .quote p {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 350px;
+        width: 100%;
+    }
+    .quote h2{
+        font-size: 35px;
+    }
     /* SECCION PROYECTOS */
+    .seccion-proyectos{
+        padding: 80px 10px;
+    }  
     .contenido-proyectos{
         max-width: 280px;
     }
 
     /* SECCION FOOTER */
+    .seccion-footer{
+        padding: 40px 10px 40px
+    }
     .nav-footer {
         display: none;
+    }
+    .redes i{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        margin: 10px;
+        padding: 10px;
     }
 }
