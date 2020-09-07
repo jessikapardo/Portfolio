@@ -89,10 +89,12 @@ ul{
 
 .contenedor-presentacion{
     display: flex;
+    /* si ambos elementos ocupan el 50% del contenedor, no tiene sentido justify content aqui */
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     max-width: 1000px;
+    /* width 100% es innecesario, ya se pone por defecto */
     width: 100%;
 }
 
@@ -138,6 +140,8 @@ ul{
 }
 
 .presentacion-img {
+    /* si la imagen tiene margin 20px y width 100%, va a medir 100% + 20px! ojo 
+    quiza sea mejor darle padding a su contenedor */
     margin: 20px;
     width: 100%;
 }
@@ -158,6 +162,7 @@ ul{
     align-items: center;
     text-align: center;
     max-width: 1000px;
+    /* no es necesario width 100% */
     width: 100%;
 }
 
@@ -210,6 +215,7 @@ ul{
 
 .seccion-quote{
       background-color: #f93c64;
+      /* no es necesario flex ni justify content, ya que este elemento tiene un solo descendiente */
       display:flex;
       justify-content: center;
       padding: 90px 40px;
@@ -222,6 +228,7 @@ ul{
     text-align: center;
     color: #ffffff;
     max-width: 1000px;
+    /* no es necesario width 100% */
     width: 100%;
 }
 
@@ -256,10 +263,12 @@ ul{
 
  .contenedor-proyectos{
     display: flex;
+    /* no es necesario */
     justify-content: center;
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
+    /* no es necesario */
     width: 100%; 
 }
 
@@ -292,6 +301,7 @@ ul{
 }
 
 .proyectos{
+    /* solo max width es necesario aqui */
     display: flex;
     justify-content: center;
     max-width: 840px;
@@ -300,8 +310,10 @@ ul{
 
 .contenido-proyectos{
     display: flex;
+    /* no es necesario, ya que es lo que se pone por defecto */
     justify-content: flex-start;
     flex-wrap: wrap;
+    /* no es necesario */
     width: 100%;
 }
  
@@ -319,6 +331,7 @@ ul{
 }
 
 .imagen-proyecto{
+    /* no son necesarias las ordnes de flex aca  */
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -357,6 +370,7 @@ a:hover .imagen-proyecto-hover{
 
 .contenedor-contacto{
     max-width: 1000px;
+    /* no es necesario */
     width: 100%;
 }
 
